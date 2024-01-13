@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
-    "build:dev": "node esbuild.dev.js",
+    "build:dev": "node esbuild.dev.cjs",
     "start": "node esbuild.config.js -w",
     "open": "start public/index.html",
     "deploy": "gh-pages -d dist"
