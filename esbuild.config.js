@@ -5,7 +5,7 @@ esbuildServe({
   bundle: true,
   minify: true,
   sourcemap: true,
-  outfile: 'dist/bundle.js',
+  outfile: './public/bundle.js',
   define: {
     'process.env.NODE_ENV': '"development"',
     'process.env.DEBUG': 'false'
